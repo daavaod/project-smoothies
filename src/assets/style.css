@@ -266,7 +266,8 @@ td {
 ------------------------------------------------------------------------------*/
 /*----------  buttons
 ------------------------------------------------------------------------------*/
-.btn-add {
+.btn-add,
+.btn-edit {
     position: absolute;
     right: 10px;
     bottom: -20px;
@@ -279,6 +280,13 @@ td {
     text-align: center;
     box-shadow: 0px 3px 7px 0 rgba(48, 74, 90, 0.10);
     box-sizing: border-box;
+}
+.btn-edit .pbscoicon-edit {  
+    position: relative; 
+    cursor: pointer;
+    color: #fff;
+    top: 11px;
+    font-size: 13px;
 }
 .btn-add .pbscoicon-x {
     position: relative;
@@ -361,6 +369,7 @@ body {
     background-color: #F5D6C6;
     padding: 20px;
     border-radius: 6px;
+    margin-bottom: 20px;
     box-shadow: 3px 3px 7px 0 rgba(90, 62, 54, 0.30);
 }
 .ingredients-wrap li {
@@ -432,4 +441,10 @@ body {
     bottom: 10px;
     right: 10px;
     cursor: pointer;
+}
+/*----------  edit smoothie form
+------------------------------------------------------------------------------*/
+.edit-smoothie h2 {
+    text-align: center;
+    margin-bottom: 30px;
 }

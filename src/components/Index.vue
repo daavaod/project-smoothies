@@ -3,6 +3,9 @@
         <ul class="cards-wrap">
             <li class="card" v-for="smoothie in smoothies" :key="smoothie.id">
                 <span class="pbscoicon-delete" @click="deleteSmoothie(smoothie.id)"></span>
+                <router-link :to="{name: 'EditSmoothie', params: {smoothie_slug: smoothie.slug}}" class="btn-edit">
+                    <span class="pbscoicon-edit"></span>
+                </router-link>
                 <h2>{{ smoothie.title }}</h2>
                 <ul class="ingredients-wrap">
                     <li v-for="(ingredient, index) in smoothie.ingredients" :key="index">
