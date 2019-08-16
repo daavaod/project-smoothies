@@ -288,6 +288,17 @@ td {
     top: 14px;
     color: white;
 }
+.btn-add-smoothie {
+    display: inline-block;
+    border: 1px solid #264E36;
+    background-color: #264E36;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 12px;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
 /*----------  icons
 ------------------------------------------------------------------------------*/
 /*----------  layout
@@ -378,4 +389,40 @@ body {
     top: 10px;
     right: 10px;
     cursor: pointer;
+}
+/*----------  add smoothie form
+------------------------------------------------------------------------------*/
+.add-smoothie h2 {
+    margin-bottom: 30px;
+    text-align: center
+}
+.add-smoothie-form-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+.add-smoothie-form-wrap ul {
+    margin-bottom: 40px;
+}
+.add-smoothie-form-wrap li {
+    margin-bottom: 30px;
+}
+.add-smoothie-form-wrap li:last-child {
+    margin-bottom: 0;
+}
+.add-smoothie-form-wrap label {
+    display: block;
+}
+.add-smoothie-form-wrap input {
+    border-bottom: 1px solid #9B1B30;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+}
+.add-smoothie-form-wrap .btn-wrap {
+    text-align: center;
+}
+.add-smoothie-form-wrap .feedback {
+    color: #CE5B78;
+    text-align: center;
+    margin-bottom: 20px;
 }
