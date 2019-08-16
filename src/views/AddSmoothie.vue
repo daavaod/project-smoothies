@@ -71,7 +71,6 @@ export default {
                 this.ingredients.push(this.another)
                 this.another = null
                 this.feedback = null
-                console.log(this.ingredients);
             } else {
                 this.feedback = 'You must add ingredient first'
             }

@@ -281,6 +281,9 @@ td {
     box-shadow: 0px 3px 7px 0 rgba(48, 74, 90, 0.10);
     box-sizing: border-box;
 }
+.btn-edit {
+    background-color: #FA9A85;
+}
 .btn-edit .pbscoicon-edit {  
     position: relative; 
     cursor: pointer;

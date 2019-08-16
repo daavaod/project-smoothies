@@ -69,7 +69,6 @@ export default {
                 this.smoothie.ingredients.push(this.another)
                 this.another = null
                 this.feedback = null
-                console.log(this.smoothie.ingredients);
             } else {
                 this.feedback = 'You must add ingredient first'
             }
