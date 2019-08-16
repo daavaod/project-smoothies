@@ -404,6 +404,7 @@ body {
     margin-bottom: 40px;
 }
 .add-smoothie-form-wrap li {
+    position: relative;
     margin-bottom: 30px;
 }
 .add-smoothie-form-wrap li:last-child {
@@ -425,4 +426,10 @@ body {
     color: #CE5B78;
     text-align: center;
     margin-bottom: 20px;
+}
+.add-smoothie-form-wrap .pbscoicon-delete {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
 }

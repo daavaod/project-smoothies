@@ -11,6 +11,7 @@
                     <li v-for="(ing, index) in ingredients" :key="index">
                         <label for="ingredient">Ingredient</label>
                         <input type="text" name="ingredient" v-model="ingredients[index]">
+                        <span class="pbscoicon-delete" @click="deleteIngredient(ing)"></span>
                     </li>
                     <li>
                         <label for="add-ingredient">Add an ingredient</label>
@@ -74,6 +75,11 @@ export default {
             } else {
                 this.feedback = 'You must add ingredient first'
             }
+        },
+        deleteIngredient(ing) {
+            this.ingredients = this.ingredients.filter(ingredient => {
+                return ingredient != ing
+            })
         }
     }
 
