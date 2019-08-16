@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'pbscoicon';
+  src:
+    url('fonts/pbscoicon.ttf') format('truetype'),
+    url('fonts/pbscoicon.woff') format('woff'),
+    url('fonts/pbscoicon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="pbscoicon-"], [class*=" pbscoicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pbscoicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pbscoicon-activity:before {
+  content: "\e900";
+}
+.pbscoicon-alert:before {
+  content: "\e901";
+}
+.pbscoicon-arrow:before {
+  content: "\e902";
+}
+.pbscoicon-arrow-l:before {
+  content: "\e903";
+}
+.pbscoicon-caret:before {
+  content: "\e904";
+}
+.pbscoicon-checkmark:before {
+  content: "\e905";
+}
+.pbscoicon-clock:before {
+  content: "\e906";
+}
+.pbscoicon-course-new:before {
+  content: "\e907";
+}
+.pbscoicon-delete:before {
+  content: "\e908";
+}
+.pbscoicon-download-doc:before {
+  content: "\e909";
+}
+.pbscoicon-duplicate:before {
+  content: "\e90a";
+}
+.pbscoicon-edit:before {
+  content: "\e90b";
+}
+.pbscoicon-help:before {
+  content: "\e90c";
+}
+.pbscoicon-helper:before {
+  content: "\e90d";
+}
+.pbscoicon-location:before {
+  content: "\e90e";
+}
+.pbscoicon-quiz:before {
+  content: "\e90f";
+}
+.pbscoicon-search:before {
+  content: "\e910";
+}
+.pbscoicon-settings:before {
+  content: "\e911";
+}
+.pbscoicon-upload:before {
+  content: "\e912";
+}
+.pbscoicon-video:before {
+  content: "\e913";
+}
+.pbscoicon-x:before {
+  content: "\e914";
+}
